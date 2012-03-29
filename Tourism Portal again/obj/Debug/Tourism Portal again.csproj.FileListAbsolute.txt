@@ -1,0 +1,5 @@
+C:\Users\Dave\documents\visual studio 2010\Projects\Tourism Portal again\Tourism Portal again\bin\Tourism Portal again.dll
+C:\Users\Dave\documents\visual studio 2010\Projects\Tourism Portal again\Tourism Portal again\bin\Tourism Portal again.pdb
+C:\Users\Dave\documents\visual studio 2010\Projects\Tourism Portal again\Tourism Portal again\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dave\documents\visual studio 2010\Projects\Tourism Portal again\Tourism Portal again\obj\Debug\Tourism Portal again.dll
+C:\Users\Dave\documents\visual studio 2010\Projects\Tourism Portal again\Tourism Portal again\obj\Debug\Tourism Portal again.pdb
