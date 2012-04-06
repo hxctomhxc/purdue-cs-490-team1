@@ -19,4 +19,12 @@ public partial class About : System.Web.UI.Page
     {
         Response.Redirect("Book.aspx");
     }
+    protected void Button1_Click1(object sender, EventArgs e)
+    {
+
+    }
+    protected void ScheduleMidwest_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("MidWestShedule.aspx");
+    }
 }

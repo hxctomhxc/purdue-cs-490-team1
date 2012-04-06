@@ -36,18 +36,17 @@ p.MsoBodyText
         Midwestern cuisine&nbsp;is a regional cuisine of the&nbsp;American&nbsp;Midwest. It draws its 
         culinary roots most significantly from the cuisines 
         of&nbsp;Central,&nbsp;Northern&nbsp;and&nbsp;Eastern Europe, and is influenced by regionally and 
-        locally grown foodstuffs<a name="cite_ref-0"></a>[1]&nbsp;and cultural diversity.<a 
-            name="cite_ref-1"></a>[2]<o:p></o:p></p>
+        locally grown foodstuffs&nbsp;and cultural diversity.</p>
     <p class="MsoBodyText">
         Everyday Midwestern home cooking generally showcases simple and hearty dishes 
         that make use of the abundance of locally grown foods. Its culinary profiles may 
         seem synonymous with &quot;American food.&quot; Quoted in a 2007 interview with the&nbsp;Daily 
         Herald,Chef&nbsp;Stephen Langlois, a pioneer in the Midwestern&nbsp;local food&nbsp;movement, 
         described it: &quot;Think of&nbsp;Thanksgiving&nbsp;dinner.&nbsp;Turkey&nbsp;and&nbsp;cranberry sauce&nbsp;and&nbsp;wild 
-        rice&nbsp;and&nbsp;apple pie.&quot;<a name="cite_ref-2"></a>[3]<o:p></o:p></p>
+        rice&nbsp;and&nbsp;apple pie.&quot;</p>
     <p class="MsoBodyText">
         In its&nbsp;urban centers, however, the Midwest&#39;s restaurants offer a diverse mix of 
-        ethnic cuisines as well as sophisticated, contemporary techniques.<o:p></o:p></p>
+        ethnic cuisines as well as sophisticated, contemporary techniques.</p>
     <p class="MsoBodyText">
         Sometimes called &quot;the breadbasket of America,&quot; the Midwest serves as a center 
         for&nbsp;grain&nbsp;production, particularly&nbsp;wheat,&nbsp;corn&nbsp;and&nbsp;soybeans. Midwestern states 
@@ -94,5 +93,18 @@ p.MsoBodyText
         Shake, founded in&nbsp;Normal, Illinois, and now based 
         in&nbsp;Indianapolis;&nbsp;Wendy&#39;s&nbsp;in&nbsp;Dublin, Ohio; and&nbsp;White Castlefounded in&nbsp;Wichita, 
         Kansas, and now based in&nbsp;Columbus, Ohio. Diner chain&nbsp;Big Boy, known for burgers, 
-        is headquartered in&nbsp;Warren, Michigan.<o:p></o:p></p>
+        is headquartered in&nbsp;Warren, Michigan.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .<o:p></o:p></p>
+    <p class="MsoBodyText">
+        <o:p></o:p>
+    </p>
+    <p class="MsoBodyText">
+        <o:p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </o:p>
+    </p>
+    <asp:Panel ID="Panel1" runat="server" Direction="RightToLeft" 
+        HorizontalAlign="Center" style="margin-top: 0px" Width="378px">
+        &nbsp;&nbsp;&nbsp;<asp:Button ID="ScheduleMidwest" runat="server" BackColor="#99CCFF" 
+            BorderColor="White" BorderStyle="None" Font-Names="Arial Black" 
+            Font-Size="Large" Height="57px" onclick="ScheduleMidwest_Click" 
+            style="margin-right: 0px" Text="View MidWest Schedule" Width="374px" />
+&nbsp;</asp:Panel>
 </asp:Content>
