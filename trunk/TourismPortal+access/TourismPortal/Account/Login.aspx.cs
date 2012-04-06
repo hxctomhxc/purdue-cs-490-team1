@@ -8,12 +8,22 @@ using System.Data.OleDb;
 using System.Configuration;
 using System.Data.SqlClient;
 using System.Data;
+using System.Security.Cryptography;
+using System.Text;
 
 public partial class Account_Login : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
         RegisterHyperLink.NavigateUrl = "Register.aspx?ReturnUrl=" + HttpUtility.UrlEncode(Request.QueryString["ReturnUrl"]);
+    }
+
+
+    public string md5(string str)
+    {
+        MD5 m = new MD5CryptoServiceProvider();
+        byte[] s = m.ComputeHash(UnicodeEncoding.UTF8.GetBytes(str));
+        return BitConverter.ToString(s);
     }
 
     protected void LoginUser_Authenticate(object sender, AuthenticateEventArgs e)
@@ -30,7 +40,7 @@ public partial class Account_Login : System.Web.UI.Page
         }
         dataReader.Read();
         string pass = dataReader.GetString(0);
-        if (pass != LoginUser.Password) {
+        if (md5(pass) != LoginUser.Password) {
             e.Authenticated = false;
             return;
         }
