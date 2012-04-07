@@ -37,16 +37,18 @@
     <p class="style5">
         HipHop Tour<strong>&nbsp;&nbsp;&nbsp; </strong>
         <o:p>
-        <asp:Button ID="ScheduleSouth" runat="server" BackColor="#99CCFF" 
+        <asp:Button ID="ScheduleHipHop" runat="server" BackColor="#99CCFF" 
             BorderColor="White" BorderStyle="None" Font-Names="Arial Black" 
             Font-Size="Large" Height="57px" onclick="ScheduleMidwest_Click" 
-            style="margin-right: 0px" Text="View South Schedule" Width="401px" />
+            style="margin-right: 0px" Text="View HipHop Schedule" Width="401px" />
         </o:p>
     </p>
     <o:p></o:p>
     <p class="style4">
         <o:p></o:p>
     </p>
+    <p class="style4">
+        <o:p>&nbsp;</o:p></p>
     <p>
         <span style="font-size: 10.0pt; font-family: &quot;Arial&quot;,&quot;sans-serif&quot;; color: black">
         <asp:Image ID="Image3" runat="server" Height="256px" ImageAlign="Right" 
@@ -111,6 +113,11 @@ color:black">The relationship between graffiti and hip hop culture arises from t
         world.<o:p></o:p></span></p>
     <p>
         <span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+color:black">
+        <asp:Image ID="Image4" runat="server" Height="316px" ImageAlign="Left" 
+            ImageUrl="~/IMAGES/Hip-Hop.jpg" Width="361px" />
+        </span>
+        <span style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
 color:black">Hip Hop is simultaneously a new and old phenomenon. It follows in the foot 
         steps of previous American musical genres like Blues ( Created in the Southern 
         United States at the height Jim Crow Policies ) , and it&#39;s Urban equivalents 
@@ -136,10 +143,10 @@ color:black">Hip Hop is simultaneously a new and old phenomenon. It follows in t
         <o:p>&nbsp;</o:p></p>
     <p class="style7">
         <o:p>
-        <asp:Button ID="ScheduleSouth0" runat="server" BackColor="#99CCFF" 
+        <asp:Button ID="ScheduleHipHop0" runat="server" BackColor="#99CCFF" 
             BorderColor="White" BorderStyle="None" Font-Names="Arial Black" 
             Font-Size="Large" Height="57px" onclick="ScheduleMidwest_Click" 
-            style="margin-right: 0px" Text="View South Schedule" Width="382px" />
+            style="margin-right: 0px" Text="View HipHop Schedule" Width="382px" />
         </o:p>
     </p>
     <p class="style7">
