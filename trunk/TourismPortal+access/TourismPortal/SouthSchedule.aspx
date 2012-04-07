@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="India" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
-    CodeFile="MidWestShedule.aspx.cs" Inherits="About" %>
+    CodeFile="SouthSchedule.aspx.cs" Inherits="About" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
     <style type="text/css">
@@ -21,6 +21,30 @@
             font-size: 65pt;
             text-align: center;
             height: 157px;
+        }
+        .style37
+        {
+            text-align: center;
+            font-size: x-large;
+            height: 69px;
+        }
+        .style38
+        {
+            color: #FF0000;
+        }
+        .style39
+        {
+            height: 32px;
+        }
+        .style40
+        {
+            text-align: center;
+            font-size: x-large;
+            height: 29px;
+        }
+        .style41
+        {
+            height: 36px;
         }
         .style3
         {
@@ -201,7 +225,7 @@
             padding-top: 1px;
             background: #DA9694;
         }
-        .style12
+        .style36
         {
             color: black;
             font-size: 11.0pt;
@@ -209,7 +233,7 @@
             font-style: normal;
             text-decoration: none;
             font-family: Arial, sans-serif;
-            text-align: general;
+            text-align: left;
             vertical-align: bottom;
             white-space: nowrap;
             border-style: none;
@@ -259,6 +283,25 @@
             padding-right: 1px;
             padding-top: 1px;
             background: #C4BD97;
+        }
+        .style12
+        {
+            color: black;
+            font-size: 11.0pt;
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            text-align: general;
+            vertical-align: bottom;
+            white-space: nowrap;
+            border-style: none;
+            border-color: inherit;
+            border-width: medium;
+            padding-left: 1px;
+            padding-right: 1px;
+            padding-top: 1px;
+            background: #DA9694;
         }
         .style15
         {
@@ -652,63 +695,20 @@
             padding-top: 1px;
             background: #B1A0C7;
         }
-        .style36
-        {
-            color: black;
-            font-size: 11.0pt;
-            font-weight: 400;
-            font-style: normal;
-            text-decoration: none;
-            font-family: Arial, sans-serif;
-            text-align: left;
-            vertical-align: bottom;
-            white-space: nowrap;
-            border-style: none;
-            border-color: inherit;
-            border-width: medium;
-            padding-left: 1px;
-            padding-right: 1px;
-            padding-top: 1px;
-            background: #DA9694;
-        }
-        .style37
-        {
-            text-align: center;
-            font-size: x-large;
-            height: 69px;
-        }
-        .style38
-        {
-            color: #FF0000;
-        }
-        .style39
-        {
-            height: 32px;
-        }
-        .style40
-        {
-            text-align: center;
-            font-size: x-large;
-            height: 29px;
-        }
-        .style41
-        {
-            height: 36px;
-        }
-    </style>
+        </style>
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <div _designerregion="0" align="center">
         <p class="style2">
-            MidWest Schedule</p>
+            The South Schedule</p>
         <p class="MsoNormal" style="text-align: center">
             <asp:Image ID="Image5" runat="server" Height="214px" ImageAlign="Left" 
-                ImageUrl="~/IMAGES/usa-midwest.jpg" Width="365px" />
+                ImageUrl="~/IMAGES/USA-South.jpg" Width="365px" />
         </p>
         <p class="style39" style="text-align: center; font-size: x-large">
             Duration: 2 weeks</p>
         <p class="style40">
-            <o:p>&nbsp;<o:p>Cost: <span class="style38">$3500 USD + tax</span></o:p></o:p></p>
+            <o:p>&nbsp;<o:p>Cost: <span class="style38">$3250 USD + tax</span></o:p></o:p></p>
         <p class="style37">
             <o:p>
             <o:p></o:p>
@@ -725,7 +725,6 @@
         <p class="MsoNormal">
             <o:p></o:p>
         </p>
-        <p class="MsoNormal">
             <table border="0" cellpadding="0" cellspacing="0" 
                 style="border-collapse: collapse; width: 568pt" width="757">
                 <colgroup>
@@ -742,11 +741,12 @@
                     <td class="style3" height="20">
                         Day 1</td>
                     <td class="style4" colspan="5" style="mso-ignore: colspan;" width="320">
-                        Arrival in Ohio and Group Dinner<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+                        Arrival in S. Carolina and Group Dinner<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
                     <td class="style5" width="63">
                         Day 8</td>
                     <td class="style6" colspan="4" style="mso-ignore: colspan;" width="256">
-                        Drive to Illinois and Group Dinner</td>
+                        Drive to 
+                        Georgia and Group Dinner</td>
                     <td class="style7" width="93">
                         &nbsp;</td>
                 </tr>
@@ -884,7 +884,7 @@
                     <td class="style18" height="20">
                         Day 4</td>
                     <td class="style19" colspan="3" style="mso-ignore: colspan">
-                        Midwestern cooking lessons</td>
+                        Southern cooking lessons</td>
                     <td class="style19">
                         &nbsp;</td>
                     <td class="style19">
@@ -892,7 +892,8 @@
                     <td class="style20">
                         Day 11</td>
                     <td class="style20" colspan="4" style="mso-ignore: colspan">
-                        Drive to Missouri and Group Dinner</td>
+                        Drive to 
+                        Alabama and Group Dinner</td>
                     <td class="style21">
                         &nbsp;</td>
                 </tr>
@@ -900,7 +901,8 @@
                     <td class="style22" height="20">
                         Day 5</td>
                     <td class="style23" colspan="4" style="mso-ignore: colspan">
-                        Drive to Indiana and Group Dinner</td>
+                        Drive to 
+                        Tennessee and Group Dinner</td>
                     <td class="style23">
                         &nbsp;</td>
                     <td class="style24">
@@ -1051,8 +1053,6 @@
                         &nbsp;</td>
                 </tr>
             </table>
-            <o:p></o:p>
-        </p>
         <p align="center" class="MsoNormal" style="text-align: center">
             <o:p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</o:p><o:p></o:p></p>
         <p align="center" class="MsoNormal" style="text-align: center">

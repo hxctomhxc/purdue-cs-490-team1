@@ -20,17 +20,29 @@ p.MsoBodyText
 	font-size:12.0pt;
 	font-family:"Times New Roman","serif";
 	}
-        .style1
+        .style3
         {
-            font-size: x-large;
+            text-align: center;
+        }
+        .style4
+        {
+            font-family: "Bernard MT Condensed";
+            font-size: 65pt;
+            height: 137px;
         }
     </style>
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-    <p class="style1">
-        <strong>Midwest</strong><o:p></o:p><asp:Image ID="Image5" runat="server" 
-            Height="245px" ImageAlign="Right" ImageUrl="~/IMAGES/MidWest.jpg" 
-            Width="339px" />
+    <p class="style4">
+        MidWest Tours&nbsp;&nbsp;
+        <asp:Button ID="ScheduleMidwest0" runat="server" BackColor="#99CCFF" 
+            BorderColor="White" BorderStyle="None" Font-Names="Arial Black" 
+            Font-Size="Large" Height="57px" onclick="ScheduleMidwest_Click" 
+            style="margin-right: 0px" Text="View MidWest Schedule" Width="377px" />
+    </p>
+    <p class="MsoBodyText">
+        <asp:Image ID="Image8" runat="server" Height="239px" ImageAlign="Right" 
+            ImageUrl="~/IMAGES/honey1.jpg" Width="379px" />
     </p>
     <p class="MsoBodyText">
         Midwestern cuisine&nbsp;is a regional cuisine of the&nbsp;American&nbsp;Midwest. It draws its 
@@ -60,7 +72,10 @@ p.MsoBodyText
         Far from the oceans, Midwesterners traditionally ate little&nbsp;seafood, relying on 
         local&nbsp;freshwater fish, such as&nbsp;perch&nbsp;and&nbsp;trout, supplemented by canned&nbsp;tuna&nbsp;and 
         canned or cured&nbsp;salmon&nbsp;and&nbsp;herring, although modern air shipping of ocean 
-        seafood has been increasing Midwesterners&#39; taste for ocean fish.<o:p></o:p></p>
+        seafood has been increasing Midwesterners&#39; taste for ocean fish.<asp:Image 
+            ID="Image7" runat="server" Height="169px" ImageAlign="Left" 
+            ImageUrl="~/IMAGES/flickr-friedokra.jpg" Width="241px" />
+        <o:p></o:p></p>
     <p class="MsoBodyText">
         Dairy&nbsp;products, especially&nbsp;cheese, form an important group of regional 
         ingredients, with&nbsp;Wisconsin&nbsp;known as &quot;America&#39;s Dairyland,&quot; although other 
@@ -78,7 +93,9 @@ p.MsoBodyText
         many&nbsp;ethnic German&nbsp;immigrants, so&nbsp;pork sausages and potatoes&nbsp;are prevalent. In 
         the&nbsp;Rust Belt, many&nbsp;Greeks&nbsp;became restaurateurs, imparting 
         aMediterranean&nbsp;influence.&nbsp;Native American&nbsp;influences show up in the uses of corn 
-        and wild rice.<o:p></o:p></p>
+        and wild rice.<o:p></o:p><asp:Image ID="Image6" runat="server" Height="257px" 
+            ImageAlign="Right" ImageUrl="~/IMAGES/fried_chicken.jpg" Width="302px" />
+    </p>
     <p class="MsoBodyText">
         Traditionally, Midwestern cooks used a light hand with seasonings, 
         preferring&nbsp;sage,&nbsp;dill,&nbsp;caraway,&nbsp;mustard&nbsp;and&nbsp;parsley&nbsp;to hot, bold 
@@ -93,18 +110,20 @@ p.MsoBodyText
         Shake, founded in&nbsp;Normal, Illinois, and now based 
         in&nbsp;Indianapolis;&nbsp;Wendy&#39;s&nbsp;in&nbsp;Dublin, Ohio; and&nbsp;White Castlefounded in&nbsp;Wichita, 
         Kansas, and now based in&nbsp;Columbus, Ohio. Diner chain&nbsp;Big Boy, known for burgers, 
-        is headquartered in&nbsp;Warren, Michigan.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .<o:p></o:p></p>
-    <p class="MsoBodyText">
-        <o:p></o:p>
-    </p>
-    <p class="MsoBodyText">
-        <o:p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </o:p>
-    </p>
-    <asp:Panel ID="Panel1" runat="server" Direction="RightToLeft" 
-        HorizontalAlign="Center" style="margin-top: 0px" Width="378px">
-        &nbsp;&nbsp;&nbsp;<asp:Button ID="ScheduleMidwest" runat="server" BackColor="#99CCFF" 
+        is headquartered in&nbsp;Warren, Michigan.</p>
+    <p class="MsoBodyText" align="center">
+        &nbsp;</p>
+    <p class="style3" align="center">
+        <asp:Button ID="ScheduleMidwest1" runat="server" BackColor="#99CCFF" 
             BorderColor="White" BorderStyle="None" Font-Names="Arial Black" 
             Font-Size="Large" Height="57px" onclick="ScheduleMidwest_Click" 
             style="margin-right: 0px" Text="View MidWest Schedule" Width="374px" />
-&nbsp;</asp:Panel>
+    </p>
+    <p class="style3" align="center">
+        &nbsp;</p>
+    <p class="style3" align="center">
+        &nbsp;&nbsp;</p>
+    <p class="MsoBodyText">
+        &nbsp;</p>
+    <br />
 </asp:Content>

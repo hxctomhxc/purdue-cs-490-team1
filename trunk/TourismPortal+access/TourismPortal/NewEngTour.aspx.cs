@@ -23,4 +23,8 @@ public partial class About : System.Web.UI.Page
     {
         Response.Redirect("Botswana Your Clothing Tour.aspx");
     }
+    protected void ScheduleMidwest_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("NewEnglandSchedule.aspx");
+    }
 }

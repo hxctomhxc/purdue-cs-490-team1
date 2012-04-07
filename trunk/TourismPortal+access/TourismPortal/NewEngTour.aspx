@@ -5,19 +5,48 @@
     <style type="text/css">
         .style1
         {
-            font-size: x-large;
+            font-size: xx-large;
+            font-family: "Bernard MT Condensed";
+        }
+        .style2
+        {
+            font-size: 65pt;
+        }
+        .style3
+        {
+            font-size: xx-large;
+            font-family: "Bernard MT Condensed";
+            height: 18px;
+        }
+        .style4
+        {
+            text-align: center;
         }
     </style>
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
+    <p class="style3">
+        &nbsp;</p>
     <p class="style1">
-        <strong>New England<asp:Image ID="Image5" runat="server" Height="317px" 
-            ImageAlign="Right" ImageUrl="~/IMAGES/NewEng.jpg" Width="464px" />
+        <strong><span class="style2">New England&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="ScheduleNewEng" runat="server" BackColor="#99CCFF" 
+            BorderColor="White" BorderStyle="None" Font-Names="Arial Black" 
+            Font-Size="Large" Height="57px" onclick="ScheduleMidwest_Click" 
+            style="margin-right: 0px" Text="View New England Schedule" Width="392px" />
+        </span>
         </strong>
     </p>
     <p>
-        New England is a Northeastern region of the United States, including the six 
-        states ofConnecticut,&nbsp;Maine,Massachusetts,&nbsp;New Hampshire,Rhode Island, 
+        &nbsp;</p>
+    <p>
+        <strong><span class="style2">
+        <asp:Image ID="Image5" runat="server" Height="247px" 
+            ImageAlign="Right" ImageUrl="~/IMAGES/NewEng.jpg" Width="396px" />
+        </span>
+        </strong>
+    </p>
+    <p>
+        New England is a Northeastern region of the United States, including the six states ofConnecticut,&nbsp;Maine,Massachusetts,&nbsp;New Hampshire,Rhode Island, 
         and&nbsp;Vermont. TheAmerican Indians&nbsp;cuisine became part of the cookery style that 
         the early colonists brought with them.&nbsp;The style of New England cookery 
         originated from its colonial roots, that is to say practical, frugal and willing 
@@ -52,7 +81,10 @@
         the European lobster&nbsp;Homarus gammarus, which can be distinguished by its 
         coloration and the lack of spines on the underside of the&nbsp;rostrum. American 
         lobsters are usually bluish green to brown with red spines, but a number of 
-        color variations have been observed.<o:p></o:p></p>
+        color variations have been observed.<asp:Image ID="Image6" runat="server" 
+            Height="192px" ImageAlign="Left" ImageUrl="~/IMAGES/clam-chowder-2.jpg" 
+            Width="229px" />
+        <o:p></o:p></p>
     <p>
         American lobsters are a popular food, with an image of refinement.&nbsp;They are 
         commonly boiled or steamed. Hardshells (lobsters that are several months past 
@@ -76,4 +108,16 @@
         after being served. There is some meat in the legs and in the arms that connect 
         the large claws to the body. There is also some small amount of meat just below 
         the carapace around the thorax and in the smaller legs.<o:p></o:p></p>
+    <p>
+        <o:p></o:p>
+    </p>
+    <p class="style4">
+        <o:p><strong><span class="style2">
+        <asp:Button ID="ScheduleNewEng0" runat="server" BackColor="#99CCFF" 
+            BorderColor="White" BorderStyle="None" Font-Names="Arial Black" 
+            Font-Size="Large" Height="57px" onclick="ScheduleMidwest_Click" 
+            style="margin-right: 0px" Text="View New England Schedule" Width="392px" />
+        </span>
+        </strong></o:p>
+    </p>
     </asp:Content>
