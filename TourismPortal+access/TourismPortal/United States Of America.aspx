@@ -7,6 +7,7 @@
         {
             font-family: "Bernard MT Condensed";
             font-size: 65pt;
+            color: #666666;
         }
         .style3
         {
