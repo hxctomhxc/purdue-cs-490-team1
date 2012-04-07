@@ -48,17 +48,10 @@
                 </p>
             </asp:ContentPlaceHolder>
         </div>
-        <asp:Image ID="Image1" runat="server" Height="88px" 
-            ImageUrl="~/IMAGES/logo.jpg" Width="220px" />
-    &nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Image ID="Image2" runat="server" Height="86px" ImageUrl="~/IMAGES/31.jpg" 
-            Width="220px" />
-&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Image ID="Image3" runat="server" Height="86px" ImageUrl="~/IMAGES/21.jpg" 
-            Width="220px" />
-&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Image ID="Image4" runat="server" Height="86px" ImageUrl="~/IMAGES/11.jpg" 
-            Width="220px" />
+        <asp:Image ID="Image1" runat="server" Height="107px" 
+            ImageUrl="~/IMAGES/logo.jpg" Width="134px" />
+        <asp:Image ID="Image2" runat="server" ImageAlign="Right" 
+            ImageUrl="~/IMAGES/flag_logo_master.png" />
     </div>
     </form>
 </body>
