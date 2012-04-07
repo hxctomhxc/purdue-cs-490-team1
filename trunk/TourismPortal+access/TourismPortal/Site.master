@@ -7,6 +7,13 @@
     <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
     <asp:ContentPlaceHolder ID="HeadContent" runat="server">
     </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 157px;
+            height: 104px;
+        }
+    </style>
 </head>
 <body>
     <form runat="server">
@@ -51,15 +58,14 @@
         <asp:Image ID="Image1" runat="server" Height="88px" 
             ImageUrl="~/IMAGES/logo.jpg" Width="220px" />
     &nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Image ID="Image2" runat="server" Height="86px" ImageUrl="~/IMAGES/31.jpg" 
-            Width="220px" />
-&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Image ID="Image3" runat="server" Height="86px" ImageUrl="~/IMAGES/21.jpg" 
-            Width="220px" />
-&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Image ID="Image4" runat="server" Height="86px" ImageUrl="~/IMAGES/11.jpg" 
-            Width="220px" />
-    </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+    
+        <asp:Image ID="Image2" runat="server" Height="75px" ImageAlign="Right" 
+            ImageUrl="~/IMAGES/flag_logo_master.png" Width="125px" />
+    
+        </div>
+
     </form>
 </body>
 </html>
