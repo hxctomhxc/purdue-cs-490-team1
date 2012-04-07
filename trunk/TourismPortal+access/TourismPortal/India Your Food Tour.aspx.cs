@@ -19,4 +19,20 @@ public partial class About : System.Web.UI.Page
     {
         Response.Redirect("Book.aspx");
     }
+    protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+    {
+        Response.Redirect("West India Tour.aspx");
+    }
+    protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
+    {
+        Response.Redirect("East India Tour.aspx");
+    }
+    protected void ImageButton3_Click(object sender, ImageClickEventArgs e)
+    {
+        Response.Redirect("North India Tour.aspx");
+    }
+    protected void ImageButton4_Click(object sender, ImageClickEventArgs e)
+    {
+        Response.Redirect("South India Tour.aspx");
+    }
 }

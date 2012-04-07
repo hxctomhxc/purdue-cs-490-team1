@@ -11,13 +11,12 @@ public partial class About : System.Web.UI.Page
     {
 
     }
-    protected void viewTourFood_Click(object sender, EventArgs e)
+    protected void Button2_Click(object sender, EventArgs e)
     {
-        Response.Redirect("India Your Food Tour.aspx");
+        Response.Redirect("India.aspx");
     }
-
-    protected void MusicTourButton_Click(object sender, EventArgs e)
+    protected void Button1_Click(object sender, EventArgs e)
     {
-        Response.Redirect("India Your Music Tour.aspx");
+        Response.Redirect("Book.aspx");
     }
 }

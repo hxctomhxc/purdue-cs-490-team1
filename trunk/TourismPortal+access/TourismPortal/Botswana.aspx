@@ -19,8 +19,7 @@
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <h2 class="style1">
-                botswana cultural tour
-                </h2>
+                botswana Tours</h2>
     <p class="style2">
         
         FOOD TOUR<br>
