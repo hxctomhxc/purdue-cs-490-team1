@@ -18,14 +18,40 @@
         }
         .style5
         {
-            font-size: x-large;
+            font-size: 65pt;
+            font-family: "Bernard MT Condensed";
+        }
+        .style6
+        {
+            font-size: x-small;
+        }
+        .style7
+        {
+            font-size: 12.0pt;
+            font-family: "Times New Roman", serif;
+            margin-left: 0in;
+            margin-right: 0in;
+            margin-top: 0in;
+            margin-bottom: 6.0pt;
+            text-align: center;
         }
         </style>
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <p class="style5">
-        <strong>The South</strong><o:p></o:p></p>
+        <strong><span class="style6">&nbsp;</span>The South&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong>
+        <o:p>
+        <asp:Button ID="ScheduleSouth" runat="server" BackColor="#99CCFF" 
+            BorderColor="White" BorderStyle="None" Font-Names="Arial Black" 
+            Font-Size="Large" Height="57px" onclick="ScheduleMidwest_Click" 
+            style="margin-right: 0px" Text="View South Schedule" Width="401px" />
+        </o:p>
+    </p>
+    <o:p></o:p>
     <p class="style4">
+        <asp:Image 
+            ID="Image5" runat="server" Height="286px" ImageAlign="Right" 
+            ImageUrl="~/IMAGES/honey1.jpg" Width="403px" />
         The&nbsp;cuisine&nbsp;of the&nbsp;Southern United States&nbsp;is defined as the historical regional 
         culinary form of states generally south of the&nbsp;Mason Dixon 
         Line&nbsp;dividing&nbsp;Pennsylvania&nbsp;from&nbsp;Maryland&nbsp;and&nbsp;Delaware&nbsp;as well as along the&nbsp;Ohio 
@@ -33,10 +59,7 @@
     <p class="style4">
         The most notable influences come 
         from&nbsp;Scottish,&nbsp;Irish,&nbsp;German,&nbsp;French,&nbsp;Spanish,&nbsp;Native American,&nbsp;English, 
-        and&nbsp;African American&nbsp;cuisines.&nbsp;Cajun,&nbsp;Creole,&nbsp;Lowcountry, and&nbsp;Floribbean&nbsp;are exa<asp:Image 
-            ID="Image5" runat="server" Height="262px" ImageAlign="Right" 
-            ImageUrl="~/IMAGES/honey1.jpg" Width="321px" />
-        mples of types Southern cuisine. In recent history, elements of Southern cuisine 
+        and&nbsp;African American&nbsp;cuisines.&nbsp;Cajun,&nbsp;Creole,&nbsp;Lowcountry, and&nbsp;Floribbean&nbsp;are examples of types Southern cuisine. In recent history, elements of Southern cuisine 
         have spread north, having an effect on the development of other types 
         of&nbsp;American cuisine.<o:p></o:p></p>
     <p class="style4">
@@ -92,6 +115,22 @@
         Southern desserts include many dishes such as strawberry shortcake, banana 
         pudding, baked apple slices, sweet potato pie, apple pie, pumpkin pie, and many 
         other pies utilizing fruits that are grown around the area.<o:p></o:p></p>
+    <p class="style4">
+        <o:p>&nbsp;</o:p></p>
+    <p class="style4">
+        <o:p>&nbsp;</o:p></p>
+    <p class="style7">
+        <o:p>
+        <asp:Button ID="ScheduleSouth0" runat="server" BackColor="#99CCFF" 
+            BorderColor="White" BorderStyle="None" Font-Names="Arial Black" 
+            Font-Size="Large" Height="57px" onclick="ScheduleMidwest_Click" 
+            style="margin-right: 0px" Text="View South Schedule" Width="382px" />
+        </o:p>
+    </p>
+    <p class="style7">
+        <o:p>&nbsp;</o:p></p>
+    <p class="style7">
+        <o:p>&nbsp;</o:p></p>
     <p class="style3">
         <br></p>
 </asp:Content>

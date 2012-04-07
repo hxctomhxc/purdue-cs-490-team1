@@ -23,4 +23,16 @@ public partial class About : System.Web.UI.Page
     {
         Response.Redirect("United States Of America Your Food Tour.aspx");
     }
+    protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+    {
+        Response.Redirect("United States Of America Your Food Tour.aspx");
+    }
+    protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
+    {
+        Response.Redirect("United States Of America Your Clothing Tour.aspx");
+    }
+    protected void ImageButton3_Click(object sender, ImageClickEventArgs e)
+    {
+        Response.Redirect("United States Of America Your Music Tour.aspx");
+    }
 }
