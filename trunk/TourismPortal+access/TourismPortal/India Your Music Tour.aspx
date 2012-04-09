@@ -6,7 +6,9 @@
         .style1
         {
             text-align: center;
-            color: #000000;
+            color: #666666;
+            font-family: "Bernard MT Condensed";
+            font-size: 45pt;
         }
         .style2
         {
