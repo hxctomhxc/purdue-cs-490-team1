@@ -21,19 +21,21 @@ public partial class About : System.Web.UI.Page
     }
     protected void NewEnglandButton_Click(object sender, ImageClickEventArgs e)
     {
-        Response.Redirect("HipHopTour.aspx");
+        Response.Redirect("NewEngTour.aspx");
     }
     protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
     {
-        Response.Redirect("USRockTour.aspx");
+        Response.Redirect("PacificTour.aspx");
     }
-    
+
+
+
     protected void ImageButton1_Click1(object sender, ImageClickEventArgs e)
     {
-        Response.Redirect("USHawaiianTour.aspx");
+        Response.Redirect("MidWestTour.aspx");
     }
-    protected void SouthTour_Click(object sender, ImageClickEventArgs e)
+    protected void ScheduleMidwest_Click(object sender, EventArgs e)
     {
-        Response.Redirect("USBluesTour.aspx");
+        Response.Redirect("SouthSchedule.aspx");
     }
 }
