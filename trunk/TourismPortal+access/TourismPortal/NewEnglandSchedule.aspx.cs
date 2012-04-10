@@ -13,10 +13,12 @@ public partial class About : System.Web.UI.Page
     }
     protected void Button2_Click(object sender, EventArgs e)
     {
-        Response.Redirect("Book.aspx");
+        String t_name = "American_New_England";
+        Response.Redirect("Book.aspx?departs=" + Calendar1.SelectedDate.ToShortDateString() + "&t_name=" + t_name);
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
-        Response.Redirect("Book.aspx");
+        String t_name = "American_New_England";
+        Response.Redirect("Book.aspx?departs=" + Calendar1.SelectedDate.ToShortDateString() + "&t_name=" + t_name);
     }
 }
