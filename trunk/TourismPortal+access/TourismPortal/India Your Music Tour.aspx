@@ -7,9 +7,9 @@
         {
             text-align: center;
             color: #666666;
-            font-family: "Bernard MT Condensed";
-            font-size: 45pt;
-        }
+        font-family: "Bernard MT Condensed";
+        font-size: 45pt;
+    }
         .style2
         {
             text-align: left;

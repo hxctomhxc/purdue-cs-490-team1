@@ -12,12 +12,9 @@
     <form runat="server">
     <div class="page">
         <div class="header">
-            <div class="title">
-                <h1>
-                    TOurism POrtal
-                </h1>
-            </div>
-            <div class="loginDisplay">
+            <div class="loginDisplay" 
+                
+                style="background-position: 0px 0px; background-image: url('/TourismPortal/IMAGES/mountain.jpg'); overflow: auto; background-repeat: no-repeat; background-attachment: inherit; height: 111px;">
                 <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
                     <AnonymousTemplate>
                         [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
