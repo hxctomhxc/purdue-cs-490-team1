@@ -10,17 +10,19 @@
     <center>
         Welcome to the best international travel agency through the most exotic places on the planet 
     </center>
+        <asp:Image ID="Image6" runat="server" 
+            ImageUrl="~/IMAGES/LOGO anigif.gif" 
+            
+        style="z-index: 1; left: 735px; top: 21px; position: absolute; height: 100px; width: 410px" 
+        CssClass="bold" ImageAlign="Middle" />
     </h2>
-    <p>
-    <center>
-        be sure to check us on  <a href="http://www.faceboo.com.net" title="ASP.NET Website">www.facebook.com</a>.</p>
+   <center>
+        be sure to check us on  <a href="http://www.faceboo.com.net" title="ASP.NET Website">www.facebook.com</a>
+        <div>
+        <marquee><img src="IMAGES/Elephants.jpg" width="200" height="300" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="IMAGES/goabeach.jpg" width="200" height="300" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="IMAGES/liberty.jpg" width="200" height="300" />&nbsp;&nbsp;
+        </marquee>
+        </div>
    </center>
-    <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Image ID="Image6" runat="server" Height="237px" 
-            ImageUrl="~/IMAGES/LOGO anigif.gif" Width="456px" />
-        <BR>
-
-    </p>
+   
     
 </asp:Content>
