@@ -10,8 +10,10 @@ using System.Data.OleDb;
 
 public partial class _Default : System.Web.UI.Page
 {
+   
     protected void Page_Load(object sender, EventArgs e)
     {
+        
         if (!HttpContext.Current.User.Identity.IsAuthenticated)
         {
             Response.Redirect("Default.aspx");
@@ -34,7 +36,8 @@ public partial class _Default : System.Web.UI.Page
             Response.Redirect("Default.aspx");
             return;
         }
-
+        string departs = Request.QueryString["departs"];
+        string t_name = Request.QueryString["t_name"];
         string user = HttpContext.Current.User.Identity.Name;
         string sur = surname.Text;
         string id_no = id.Text;
@@ -76,10 +79,10 @@ public partial class _Default : System.Web.UI.Page
             Response.End();
             return;
         }
-        string sql = "insert into bookinfo (user_name,surname,identity_no,address,where_are_you,email,pay_method,account)";
-        sql = sql + " values ('" + user + "','" + sur + "','" + id_no + "','" + addr + "','" + where_are_you + "','" + em + "','" + pay + "','" + acc + "')";
+        string sql = "insert into bookinfo (tour_name,user_name,surname,identity_no,address,where_are_you,email,pay_method,account,depart)";
+        sql = sql + " values ('"+t_name+"','" + user + "','" + sur + "','" + id_no + "','" + addr + "','" + where_are_you + "','" + em + "','" + pay + "','" + acc + "','" +departs+ "')";
         con.Open();
-        OleDbCommand cmd = new OleDbCommand(sql, con);
+        OleDbCommand cmd = new OleDbCommand(sql, con);        
         cmd.ExecuteNonQuery();
         con.Close();
         Response.Write("<script>alert('Book success！');window.location='Default.aspx';</script>");

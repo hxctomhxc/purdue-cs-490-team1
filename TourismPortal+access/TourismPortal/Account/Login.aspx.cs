@@ -40,7 +40,7 @@ public partial class Account_Login : System.Web.UI.Page
         }
         dataReader.Read();
         string pass = dataReader.GetString(0);
-        if (md5(pass) != LoginUser.Password) {
+        if (pass != md5(LoginUser.Password)) {
             e.Authenticated = false;
             return;
         }
