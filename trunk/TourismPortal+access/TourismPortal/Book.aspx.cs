@@ -16,7 +16,7 @@ public partial class _Default : System.Web.UI.Page
         
         if (!HttpContext.Current.User.Identity.IsAuthenticated)
         {
-            Response.Redirect("Default.aspx");
+            //Response.Redirect("Default.aspx");
             return;
         }
         string user = HttpContext.Current.User.Identity.Name;
