@@ -19,7 +19,7 @@
    <center>
         be sure to check us on  <a href="http://www.faceboo.com.net" title="ASP.NET Website">www.facebook.com</a>
         <div>
-        <marquee><img src="IMAGES/Elephants.jpg" width="200" height="300" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="IMAGES/goabeach.jpg" width="200" height="300" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="IMAGES/liberty.jpg" width="200" height="300" />&nbsp;&nbsp;
+        <marquee><img src="IMAGES/Elephants.jpg" width="200" height="300" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="IMAGES/Taj_Mahal_in_March_2004.jpg" width="200" height="300" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="IMAGES/liberty.jpg" width="200" height="300" />&nbsp;&nbsp;
         </marquee>
         </div>
    </center>
