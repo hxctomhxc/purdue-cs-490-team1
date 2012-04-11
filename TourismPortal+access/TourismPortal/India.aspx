@@ -38,8 +38,8 @@ It is civilized, having famous orchards and water. It is the coolest place in In
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
            
         <asp:Button ID="Button1" 
-            runat="server" Text="view more details" Width="123px" 
-            onclick="Button1_Click" Height="23px" />
+            runat="server" Text="view more details" Width="133px" 
+            onclick="Button1_Click" Height="26px" />
         &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br />SHIMLA-MANALI TOUR<br>Shimla is the capital city of Himachal Pradesh is set amidst the Snow capped Shivalik Mountains,
  Which offer some of the most beautiful view of the Himalayas and the astounding natural beauty. 
 On arrival our representative assists and transfers you to the hotel. Enjoy overnight stay and delicious
@@ -68,7 +68,7 @@ National Park shall get to enjoy an intriguing jeep safari with the family. If y
  
 
         <asp:Button ID="Button3" runat="server" 
-            style="z-index: 1; left: 666px; top: 400px; position: absolute; width: 130px; margin-top: 3px; height: 29px;" 
+            style="z-index: 1; left: 666px; top: 400px; position: absolute; width: 133px; margin-top: 3px; height: 26px;" 
             Text="view more details" onclick="Button3_Click" /><br /><br/><br/>
          
  <div style="clear:both;"></div>  
