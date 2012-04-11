@@ -11,13 +11,18 @@ public partial class About : System.Web.UI.Page
     {
 
     }
-
-    protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("India Your Clothing Tour.aspx");
+    }
+    protected void Button2_Click(object sender, EventArgs e)
     {
         Response.Redirect("India Your Food Tour.aspx");
+    
     }
-    protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
+    protected void Button3_Click(object sender, EventArgs e)
     {
         Response.Redirect("India Your Music Tour.aspx");
+    
     }
 }
