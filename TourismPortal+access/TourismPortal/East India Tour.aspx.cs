@@ -19,4 +19,8 @@ public partial class About : System.Web.UI.Page
     {
         Response.Redirect("Book.aspx");
     }
+    protected void ScheduleMidwest_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("EastIndiaFoodSchedule.aspx");
+    }
 }
