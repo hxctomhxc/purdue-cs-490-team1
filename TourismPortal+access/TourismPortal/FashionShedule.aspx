@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="India" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
-    CodeFile="hiphopSchedule.aspx.cs" Inherits="About" %>
+    CodeFile="FashionShedule.aspx.cs" Inherits="About" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
     <style type="text/css">
@@ -48,8 +48,20 @@
         }
         .style42
         {
+            text-align: center;
+        }
+.font5
+	{color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, serif;
+	}
+        .style43
+        {
             height: 15.75pt;
-            width: 359pt;
+            width: 290pt;
             color: windowtext;
             font-size: 12.0pt;
             font-weight: 400;
@@ -58,7 +70,7 @@
             font-family: "Times New Roman", serif;
             text-align: general;
             vertical-align: bottom;
-            white-space: normal;
+            white-space: nowrap;
             border-style: none;
             border-color: inherit;
             border-width: medium;
@@ -67,9 +79,9 @@
             padding-top: 1px;
             background: #FF9966;
         }
-        .style43
+        .style44
         {
-            width: 231pt;
+            width: 278pt;
             color: windowtext;
             font-size: 12.0pt;
             font-weight: 400;
@@ -78,19 +90,19 @@
             font-family: "Times New Roman", serif;
             text-align: general;
             vertical-align: bottom;
-            white-space: normal;
+            white-space: nowrap;
             border-style: none;
             border-color: inherit;
             border-width: medium;
             padding-left: 1px;
             padding-right: 1px;
             padding-top: 1px;
-            background: #FFCC99;
+            background: #9999FF;
         }
-        .style44
+        .style45
         {
-            height: 94.5pt;
-            width: 359pt;
+            height: 85.9pt;
+            width: 290pt;
             color: windowtext;
             font-size: 12.0pt;
             font-weight: 400;
@@ -108,49 +120,9 @@
             padding-top: 1px;
             background: aqua;
         }
-        .style45
-        {
-            width: 231pt;
-            color: windowtext;
-            font-size: 12.0pt;
-            font-weight: 400;
-            font-style: normal;
-            text-decoration: none;
-            font-family: "Times New Roman", serif;
-            text-align: general;
-            vertical-align: bottom;
-            white-space: normal;
-            border-style: none;
-            border-color: inherit;
-            border-width: medium;
-            padding-left: 1px;
-            padding-right: 1px;
-            padding-top: 1px;
-            background: #9999FF;
-        }
         .style46
         {
-            height: 47.25pt;
-            color: windowtext;
-            font-size: 12.0pt;
-            font-weight: 400;
-            font-style: normal;
-            text-decoration: none;
-            font-family: "Times New Roman", serif;
-            text-align: general;
-            vertical-align: bottom;
-            white-space: nowrap;
-            border-style: none;
-            border-color: inherit;
-            border-width: medium;
-            padding-left: 1px;
-            padding-right: 1px;
-            padding-top: 1px;
-            background: #3DEB3D;
-        }
-        .style47
-        {
-            width: 231pt;
+            width: 278pt;
             color: windowtext;
             font-size: 12.0pt;
             font-weight: 400;
@@ -168,10 +140,51 @@
             padding-top: 1px;
             background: #33CC66;
         }
+        .style47
+        {
+            height: 15.75pt;
+            color: windowtext;
+            font-size: 12.0pt;
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Times New Roman", serif;
+            text-align: general;
+            vertical-align: bottom;
+            white-space: nowrap;
+            width: 290pt;
+            border-style: none;
+            border-color: inherit;
+            border-width: medium;
+            padding-left: 1px;
+            padding-right: 1px;
+            padding-top: 1px;
+            background: #3DEB3D;
+        }
         .style48
         {
-            height: 78.75pt;
-            width: 359pt;
+            color: windowtext;
+            font-size: 12.0pt;
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Times New Roman", serif;
+            text-align: general;
+            vertical-align: bottom;
+            white-space: nowrap;
+            width: 278pt;
+            border-style: none;
+            border-color: inherit;
+            border-width: medium;
+            padding-left: 1px;
+            padding-right: 1px;
+            padding-top: 1px;
+            background: #99CCFF;
+        }
+        .style49
+        {
+            height: 29.85pt;
+            width: 290pt;
             color: windowtext;
             font-size: 12.0pt;
             font-weight: 400;
@@ -189,49 +202,9 @@
             padding-top: 1px;
             background: #FF3333;
         }
-        .style49
-        {
-            color: windowtext;
-            font-size: 12.0pt;
-            font-weight: 400;
-            font-style: normal;
-            text-decoration: none;
-            font-family: "Times New Roman", serif;
-            text-align: general;
-            vertical-align: bottom;
-            white-space: nowrap;
-            border-style: none;
-            border-color: inherit;
-            border-width: medium;
-            padding-left: 1px;
-            padding-right: 1px;
-            padding-top: 1px;
-            background: #99CCFF;
-        }
         .style50
         {
-            height: 45.75pt;
-            width: 359pt;
-            color: windowtext;
-            font-size: 12.0pt;
-            font-weight: 400;
-            font-style: normal;
-            text-decoration: none;
-            font-family: Arial, serif;
-            text-align: general;
-            vertical-align: bottom;
-            white-space: normal;
-            border-style: none;
-            border-color: inherit;
-            border-width: medium;
-            padding-left: 1px;
-            padding-right: 1px;
-            padding-top: 1px;
-            background: fuchsia;
-        }
-        .style51
-        {
-            width: 231pt;
+            width: 278pt;
             color: windowtext;
             font-size: 12.0pt;
             font-weight: 400;
@@ -249,20 +222,90 @@
             padding-top: 1px;
             background: #FF9966;
         }
-        </style>
+        .style51
+        {
+            height: 15.75pt;
+            color: windowtext;
+            font-size: 12.0pt;
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Times New Roman", serif;
+            text-align: general;
+            vertical-align: bottom;
+            white-space: nowrap;
+            width: 290pt;
+            border-style: none;
+            border-color: inherit;
+            border-width: medium;
+            padding-left: 1px;
+            padding-right: 1px;
+            padding-top: 1px;
+            background: fuchsia;
+        }
+        .style52
+        {
+            color: windowtext;
+            font-size: 12.0pt;
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Times New Roman", serif;
+            text-align: general;
+            vertical-align: bottom;
+            white-space: nowrap;
+            width: 278pt;
+            border-style: none;
+            border-color: inherit;
+            border-width: medium;
+            padding-left: 1px;
+            padding-right: 1px;
+            padding-top: 1px;
+            background: #E6E64C;
+        }
+        .style53
+        {
+            height: 29.1pt;
+            width: 290pt;
+            color: windowtext;
+            font-size: 12.0pt;
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Times New Roman", serif;
+            text-align: general;
+            vertical-align: bottom;
+            white-space: normal;
+            border-style: none;
+            border-color: inherit;
+            border-width: medium;
+            padding-left: 1px;
+            padding-right: 1px;
+            padding-top: 1px;
+            background: #FFCC99;
+        }
+        .style54
+        {
+            width: 278pt;
+        }
+        .style55
+        {
+            width: 636pt;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <div _designerregion="0" align="center">
         <p class="style2">
-            Hip Hop Schedule</p>
+            Fashion Schedule</p>
         <p class="MsoNormal" style="text-align: center">
-            <asp:Image ID="Image5" runat="server" Height="269px" ImageAlign="Left" 
-                ImageUrl="~/IMAGES/rapper.jpg" Width="377px" />
+            <asp:Image ID="Image5" runat="server" Height="214px" ImageAlign="Left" 
+                ImageUrl="~/IMAGES/laurenklein.jpg" Width="365px" />
         </p>
         <p class="style39" style="text-align: center; font-size: x-large">
-            Duration: 9 weeks</p>
+            Duration: 11 Days</p>
         <p class="style40">
-            <o:p>&nbsp;<o:p>Cost: <span class="style38">$1010 USD + tax</span></o:p></o:p></p>
+            <o:p>&nbsp;<o:p>Cost: <span class="style38">$1250 USD + tax</span></o:p></o:p></p>
         <p class="style37">
             <o:p>
             <o:p></o:p>
@@ -279,66 +322,72 @@
         <p class="MsoNormal">
             <o:p></o:p>
         </p>
-        <p class="MsoNormal">
-            <o:p>&nbsp;</o:p></p>
-        <p align="center" class="MsoNormal" style="text-align: center">
-            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse:
- collapse;width:590pt" width="787">
+        <p class="style42">
+            <table border="0" cellpadding="0" cellspacing="0" class="style55" 
+                style="border-collapse: collapse;">
                 <colgroup>
-                    <col style="mso-width-source:userset;mso-width-alt:17517;width:359pt" 
-                        width="479" />
-                    <col style="mso-width-source:userset;mso-width-alt:11264;width:231pt" 
-                        width="308" />
+                    <col style="mso-width-source: userset; mso-width-alt: 14628;" />
+                    <col style="mso-width-source:userset;mso-width-alt:12763;width:262pt" 
+                        width="349" />
                 </colgroup>
                 <tr height="21">
-                    <td class="style42" height="21" width="479">
-                        Day 1 - Arrival in Atlanta, Georgia<span style="mso-spacerun:yes">&nbsp;&nbsp;</span></td>
-                    <td class="style43" width="308">
-                        Day 6 – Music recording how-to</td>
+                    <td class="style43" height="21">
+                        Day 1 – Arrival in New York City</td>
+                    <td class="style44">
+                        Day 7 - Learn how clothing is created</td>
                 </tr>
-                <tr height="126">
-                    <td class="style44" height="126" width="479">
+                <tr height="114">
+                    <td class="style45" height="114">
                         Day 2 –
                         <br />
                         -Breakfast<br />
                         -City Tour<br />
                         -Lunch<br />
                         -City Tour<br />
-                        -Dinner<span style="mso-spacerun:yes">&nbsp;&nbsp;</span></td>
-                    <td class="style45" width="308">
-                        Day 7 – Learn how to make beats and other important factors in hip hop music<br />
-                    </td>
+                        -Dinner</td>
+                    <td class="style46">
+                        Day 8 – Meet high end designers and converse with them<br />
+                        - Marc Jacobs<br />
+                        - Vera Wang<br />
+                        - Calvin Klein<br />
+                        - Ralph Lauren<br />
+                        - Kate Spade</td>
                 </tr>
-                <tr height="63">
-                    <td class="style46" height="63">
-                        Day 3 – Hip Hop Hall of Fame museum tour<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;</span></td>
-                    <td class="style47" width="308">
-                        Day 8 – Musical concerts<br />
-                        -Concerts depend upon time when booked<br />
-                    </td>
+                <tr height="21">
+                    <td class="style47" height="21">
+                        Day 3 – Headquarter tours of Calvin Klein and Ralph Lauren</td>
+                    <td class="style48">
+                        Day 9 – Traditional clothing tour of The United States</td>
                 </tr>
-                <tr height="105">
-                    <td class="style48" height="105" width="479">
-                        Day 4 – Meet and greet with various artists<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        </span>
+                <tr height="39">
+                    <td class="style49" height="39">
+                        Day 4 – Clothing shopping trip with guide and fashion adviser #1<span 
+                            style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
                         <br />
-                        -Eminem<br />
-                        -Snoop Dogg<br />
-                        -Tech N9ne<br />
-                        -Ludacris</td>
-                    <td class="style49">
-                        Day 9 – Music recording session</td>
+                        - Trip to SoHo, NYC</td>
+                    <td class="style50">
+                        Day 10 – Create own clothing<br />
+                        <span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>- Cowboy Hats or Cowboy Boots<font 
+                            class="font5"><span style="mso-spacerun:yes"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font></td>
                 </tr>
-                <tr height="61">
-                    <td class="style50" height="61" width="479">
-                        Day 5 – Hip hop lesson with some of the best artists in the United States<span 
-                            style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp; </span>
-                        <br />
+                <tr height="21">
+                    <td class="style51" height="21">
+                        Day 5 – Fashion show visit</td>
+                    <td class="style52">
+                        Day 11 – Flight Home</td>
+                </tr>
+                <tr height="38">
+                    <td class="style53" height="38">
+                        Day 6 -<span style="mso-spacerun:yes">&nbsp; </span>Clothing shopping trip with guide 
+                        and fashion adviser #2<br />
+                        - Trip to Madison Avenue, NYC</td>
+                    <td class="style54">
                     </td>
-                    <td class="style51" width="308">
-                        Day 10 – Flight home</td>
                 </tr>
             </table>
+            <o:p></o:p>
+        </p>
+        <p align="center" class="MsoNormal" style="text-align: center">
             <o:p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</o:p><o:p></o:p></p>
         <p align="center" class="MsoNormal" style="text-align: center">
             <o:p> </o:p>
