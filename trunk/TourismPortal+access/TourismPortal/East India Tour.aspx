@@ -28,10 +28,14 @@
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <h1 class="style1">
-        <span class="style2" style="text-align: left;">East India</span><span 
+        <span class="style2" style="text-align: left;">East India&nbsp; </span><span 
             style="font-size: 9.0pt; font-family: &quot;Arial&quot;,&quot;sans-serif&quot;; color: black"><asp:Image 
             ID="Image5" runat="server" Height="240px" ImageAlign="Right" 
             ImageUrl="~/IMAGES/East India Good.jpg" Width="348px" />
+        <asp:Button ID="ScheduleEastIndia" runat="server" BackColor="#99CCFF" 
+            BorderColor="White" BorderStyle="None" Font-Names="Arial Black" 
+            Font-Size="Large" Height="57px" onclick="ScheduleMidwest_Click" 
+            style="margin-right: 0px" Text="View East India Schedule" Width="401px" />
         </span>
     </h1>
     <p class="style1">
