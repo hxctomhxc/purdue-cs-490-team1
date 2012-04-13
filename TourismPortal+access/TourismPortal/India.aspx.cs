@@ -18,6 +18,6 @@ public partial class About : System.Web.UI.Page
     }
     protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
     {
-        Response.Redirect("India Music Tour.aspx");
+        Response.Redirect("India Your Music Tour.aspx");
     }
 }
