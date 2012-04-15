@@ -60,14 +60,23 @@
         <div class="main">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
                 <p>
+                    &nbsp;</p>
+                <p>
                     <br />
                 </p>
             </asp:ContentPlaceHolder>
         </div>
         <asp:Image ID="Image1" runat="server" Height="107px" 
-            ImageUrl="~/IMAGES/logo.jpg" Width="134px" />
+            ImageUrl="~/IMAGES/logo.jpg" Width="134px" ImageAlign="Left" />
         <asp:Image ID="Image2" runat="server" ImageAlign="Right" 
             ImageUrl="~/IMAGES/flag_logo_master.png" />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
     </div>
     </form>
 </body>

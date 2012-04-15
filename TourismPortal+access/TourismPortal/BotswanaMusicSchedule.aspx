@@ -62,12 +62,12 @@
         {
             height: 15.0pt;
             width: 295pt;
-            color: red;
-            font-size: 8.8pt;
+            color: black;
+            font-size: medium;
             font-weight: 400;
             font-style: normal;
             text-decoration: none;
-            font-family: "Segoe UI", sans-serif;
+            font-family: "Times New Roman", Times, serif;
             text-align: left;
             vertical-align: bottom;
             white-space: nowrap;
@@ -102,12 +102,12 @@
         .style44
         {
             height: 15.0pt;
-            color: red;
-            font-size: 8.8pt;
+            color: black;
+            font-size: medium;
             font-weight: 400;
             font-style: normal;
             text-decoration: none;
-            font-family: "Segoe UI", sans-serif;
+            font-family: "Times New Roman", Times, serif;
             text-align: left;
             vertical-align: bottom;
             white-space: nowrap;
@@ -142,12 +142,12 @@
         .style46
         {
             height: 15.0pt;
-            color: red;
-            font-size: 8.8pt;
+            color: black;
+            font-size: medium;
             font-weight: 400;
             font-style: normal;
             text-decoration: none;
-            font-family: "Segoe UI", sans-serif;
+            font-family: "Times New Roman", Times, serif;
             text-align: left;
             vertical-align: bottom;
             white-space: nowrap;
@@ -182,12 +182,12 @@
         .style48
         {
             height: 14pt;
-            color: red;
-            font-size: 8.8pt;
+            color: black;
+            font-size: medium;
             font-weight: 400;
             font-style: normal;
             text-decoration: none;
-            font-family: "Segoe UI", sans-serif;
+            font-family: "Times New Roman", Times, serif;
             text-align: left;
             vertical-align: bottom;
             white-space: nowrap;
@@ -223,12 +223,12 @@
         .style50
         {
             height: 15.0pt;
-            color: #FF3300;
-            font-size: 8.8pt;
+            color: black;
+            font-size: medium;
             font-weight: 400;
             font-style: normal;
             text-decoration: none;
-            font-family: "Segoe UI", sans-serif;
+            font-family: "Times New Roman", Times, serif;
             text-align: left;
             vertical-align: bottom;
             white-space: nowrap;
@@ -262,7 +262,26 @@
         }
         .style52
         {
-            width: 527pt;
+            width: 623pt;
+        }
+        .style54
+        {
+            font-family: "Times New Roman", Times, serif;
+        }
+        .style55
+        {
+            color: windowtext;
+            font-size: medium;
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Times New Roman", Times, serif;
+        }
+        .style56
+        {
+            font-family: "Times New Roman", Times, serif;
+            font-size: medium;
+            color: black;
         }
         </style>
 </asp:Content>
@@ -300,7 +319,7 @@
         <p class="MsoNormal">
             <o:p>&nbsp; 
             <table border="0" cellpadding="0" cellspacing="0" class="style52" 
-                style="border-collapse: collapse;" width="702">
+                style="border-collapse: collapse;">
                 <colgroup>
                     <col style="mso-width-source:userset;mso-width-alt:12141;width:249pt" 
                         width="332" />
@@ -309,36 +328,40 @@
                 </colgroup>
                 <tr height="20">
                     <td class="style42" height="20">
-                        Day 1<font class="font5">-ARRIVAL DAY.(cresta hotel)</font></td>
+                        <span class="style54">Day 1</span><font class="style55">-ARRIVAL DAY.(cresta hotel)</font></td>
                     <td class="style43" width="370">
-                        Day 6,7<font class="font5">-WEEKEND SHOPPING.(arround the city malls)</font></td>
+                        <span class="style56">Day 6,7</span><font class="style55">-WEEKEND SHOPPING.(arround the city malls)</font></td>
                 </tr>
                 <tr height="20">
                     <td class="style44" height="20">
-                        Day 2<font class="font5">-WELCOME DINNER.(cresta hotel)</font></td>
+                        <span class="style54">Day 2</span><font class="style55">-WELCOME DINNER.(cresta hotel)</font></td>
                     <td class="style45">
-                        <span style="line-height:115%">Day 8<font class="font6">-DANCE SHOW BY LOCAL 
+                        <span style="line-height:115%"><span class="style56">Day 8</span><font 
+                            class="style55">-DANCE SHOW BY LOCAL 
                         TRADITIONAL GROUPS</font></span></td>
                 </tr>
                 <tr height="20">
                     <td class="style46" height="20">
-                        Day 3<font class="font5">-MUSICAL INSTRUMENTS TOUR.(national museum)&nbsp;</font></td>
+                        <span class="style54">Day 3</span><font class="style55">-MUSICAL INSTRUMENTS TOUR.(national museum)&nbsp;</font></td>
                     <td class="style47">
-                        <span style="line-height:115%">Day 9<font class="font6">- PREPARATION FOR MUSIC 
+                        <span style="line-height:115%"><span class="style56">Day 9</span><font 
+                            class="style55">- PREPARATION FOR MUSIC 
                         &amp; DANCE SHOW</font></span></td>
                 </tr>
                 <tr>
                     <td class="style48">
-                        Day 4<font class="font5">-MEET THE MUSIC MAKERS(oasis motel)</font></td>
+                        <span class="style54">Day 4</span><font class="style55">-MEET THE MUSIC MAKERS(oasis motel)</font></td>
                     <td class="style49">
-                        <span style="line-height:115%">Day 10<font class="font6">-MUSIC &amp; DANCE SHOW BY 
+                        <span style="line-height:115%"><span class="style56">Day 10</span><font 
+                            class="style55">-MUSIC &amp; DANCE SHOW BY 
                         (you) &amp; (mophato)</font></span></td>
                 </tr>
                 <tr height="20">
                     <td class="style50" height="20">
-                        Day 5<font class="font5">-MUSIC LESSON (dance/musical instruments)</font></td>
+                        <span class="style54">Day 5</span><font class="style55">-MUSIC LESSON (dance/musical instruments)</font></td>
                     <td class="style51">
-                        <span style="line-height:115%">Day 11,12<font class="font6">-REST DAYS</font></span></td>
+                        <span style="line-height:115%"><span class="style56">Day 11,12</span><font 
+                            class="style55">-REST DAYS</font></span></td>
                 </tr>
             </table>
             </o:p>
