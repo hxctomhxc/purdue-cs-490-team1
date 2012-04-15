@@ -9,6 +9,7 @@ body
     margin: 0px;
     padding: 0px;
     color: #696969;
+    text-align: center;
 }
 
 a:link, a:visited
@@ -31,7 +32,7 @@ p
 {
     margin-bottom: 10px;
     line-height: 1.6em;
-    text-align: left;
+    text-align: center;
 }
 
 
