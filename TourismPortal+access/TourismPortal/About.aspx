@@ -5,8 +5,7 @@
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <h2>
-        About the Tourism Portal
-        us</h2>
+        About the Tourism Portal</h2>
                 <p>
         Tourism Portal is a travel agency providing tours through the United States, Botswana, and India.  Particularly,
         three types of tours are available:  Food Tours, Music Tours, and Fashion Tours. 
@@ -14,7 +13,7 @@
         <p>
         Please take a look through our tours and find the perfect one for you!  
         </p>
-        <p>
+        <p align="center">
         Thanks for travelling with Tourism Portal!
         </p>
     

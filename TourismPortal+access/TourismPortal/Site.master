@@ -38,11 +38,11 @@
                                 Text="Fashion Tour" Value="Fashion Tour"></asp:MenuItem>
                         </asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/Botswana.aspx" Text="BOTSWANA">
-                            <asp:MenuItem NavigateUrl="~/Botswana Your Food Tour.aspx" Text="Food Tour" 
+                            <asp:MenuItem NavigateUrl="~/Botswana Food Tour.aspx" Text="Food Tour" 
                                 Value="Food Tour"></asp:MenuItem>
-                            <asp:MenuItem NavigateUrl="~/Botswana Your Music Tour.aspx" Text="Music tour" 
+                            <asp:MenuItem NavigateUrl="~/Botswana Music Tour.aspx" Text="Music tour" 
                                 Value="Music tour"></asp:MenuItem>
-                            <asp:MenuItem NavigateUrl="~/Botswana Your Clothing Tour.aspx" 
+                            <asp:MenuItem NavigateUrl="~/Botswana Clothing Tour.aspx" 
                                 Text="Fashion Tour" Value="Fashion Tour"></asp:MenuItem>
                         </asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/India.aspx" Text="INDIA">
