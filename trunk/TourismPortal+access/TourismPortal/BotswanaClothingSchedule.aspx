@@ -63,7 +63,7 @@
             height: 15.0pt;
             width: 249pt;
             color: black;
-            font-size: small;
+            font-size: medium;
             font-weight: 400;
             font-style: normal;
             text-decoration: none;
@@ -103,7 +103,7 @@
         {
             height: 15.0pt;
             color: black;
-            font-size: small;
+            font-size: medium;
             font-weight: 400;
             font-style: normal;
             text-decoration: none;
@@ -142,7 +142,7 @@
         {
             height: 15.0pt;
             color: black;
-            font-size: small;
+            font-size: medium;
             font-weight: 400;
             font-style: normal;
             text-decoration: none;
@@ -181,7 +181,7 @@
         {
             height: 15.0pt;
             color: black;
-            font-size: small;
+            font-size: medium;
             font-weight: 400;
             font-style: normal;
             text-decoration: none;
@@ -220,7 +220,7 @@
         {
             height: 15.0pt;
             color: black;
-            font-size: small;
+            font-size: medium;
             font-weight: 400;
             font-style: normal;
             text-decoration: none;
@@ -257,7 +257,7 @@
         }
         .style51
         {
-            font-size: small;
+            font-size: medium;
             font-weight: 400;
             font-style: normal;
             text-decoration: none;
@@ -270,7 +270,7 @@
         .style53
         {
             color: windowtext;
-            font-size: small;
+            font-size: medium;
             font-weight: 400;
             font-style: normal;
             text-decoration: none;
@@ -279,7 +279,11 @@
         .style54
         {
             font-family: "Times New Roman", Times, serif;
-            font-size: small;
+            font-size: medium;
+        }
+        .style55
+        {
+            width: 566pt;
         }
         </style>
 </asp:Content>
@@ -317,7 +321,7 @@
         <p class="MsoNormal">
             <o:p>&nbsp; 
             <table border="0" cellpadding="0" cellspacing="0" style="border-collapse:
- collapse;width:527pt" width="702">
+ collapse;" class="style55">
                 <colgroup>
                     <col style="mso-width-source:userset;mso-width-alt:12141;width:249pt" 
                         width="332" />

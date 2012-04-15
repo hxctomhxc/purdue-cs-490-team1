@@ -2,25 +2,51 @@
     CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+    <style type="text/css">
+        .style1
+        {
+            text-align: left;
+        }
+        .style2
+        {
+            text-align: center;
+        }
+        .style3
+        {
+            font-family: "Bernard MT Condensed";
+            font-size: 45pt;
+        }
+        .style4
+        {
+            text-align: center;
+            font-size: large;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-    <h2>
-        <asp:Image ID="Image5" runat="server" Height="76px" 
-            ImageUrl="~/IMAGES/TRAVEL AGENCYanigif.gif" Width="902px" />
     <center>
-        Welcome to the best international travel agency through the most exotic places on the planet 
-    </center>
-    </h2>
-    <p>
-    <center>
-        be sure to check us on  <a href="http://www.faceboo.com.net" title="ASP.NET Website">www.facebook.com</a>.</p>
+        </p>
+        <p class="style3">
+            Welcome to the UBI Tourism Portal</p>
+        <p class="style4">
+            Please take a look through our tours and find the perfect one for you!</p>
    </center>
-    <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <p class="style1">
+        &nbsp;</p>
+    <p class="style1">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Image ID="Image6" runat="server" Height="237px" 
             ImageUrl="~/IMAGES/LOGO anigif.gif" Width="456px" />
+
+    </p>
+    <p class="style1">
+        &nbsp;</p>
+    <p class="style2">
+        &nbsp;</p>
+    <p class="style1">
         <BR>
 
     </p>
+    <br />
     
 </asp:Content>
