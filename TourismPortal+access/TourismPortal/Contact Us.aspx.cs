@@ -36,7 +36,7 @@ public partial class About : System.Web.UI.Page
 
             SmtpServer.Send(mail);
 
-            Response.Redirect("reserveConfirm.aspx");
+            Response.Redirect("ConfirmSend.aspx");
         }
         catch (Exception ex)
         {

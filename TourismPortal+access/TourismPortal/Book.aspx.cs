@@ -7,85 +7,58 @@ using System.Web.UI.WebControls;
 using System.Data.SqlClient;
 using System.Configuration;
 using System.Data.OleDb;
+using System.Net;
+using System.Net.Mail;
 
 public partial class _Default : System.Web.UI.Page
 {
    
     protected void Page_Load(object sender, EventArgs e)
     {
-        
-        if (!HttpContext.Current.User.Identity.IsAuthenticated)
-        {
-            Response.Redirect("Default.aspx");
-            return;
-        }
-        string user = HttpContext.Current.User.Identity.Name;
-        name.Enabled = false;
-        name.Text = user;
-    }
-    protected void Button1_Click(object sender, EventArgs e)
-    {
-        Response.Redirect("Default.aspx");
+     
     }
     protected void Button3_Click(object sender, EventArgs e)
     {
-        OleDbConnection con = new OleDbConnection();
-        con.ConnectionString = ConfigurationManager.ConnectionStrings["MyDatabase"].ConnectionString;
-
-        if (!HttpContext.Current.User.Identity.IsAuthenticated) {
-            Response.Redirect("Default.aspx");
-            return;
-        }
-        string departs = Request.QueryString["departs"];
-        string t_name = Request.QueryString["t_name"];
-        string user = HttpContext.Current.User.Identity.Name;
-        string sur = surname.Text;
-        string id_no = id.Text;
-        string addr = address.Text;
-        string where_are_you = where.SelectedValue;
-        string em = email.Text ;
-        string pay = paymethod.SelectedValue;
-        string acc = account.Text;
-
-        if (sur == "") {
-            Response.Write("<script>alert('surname is required！');history.back();</script>");
-            Response.End();
-            return;
-        }
-        if (id_no == "")
+        try
         {
-            Response.Write("<script>alert('identity no is required！');history.back();</script>");
-            Response.End();
-            return;
+            MailMessage mail = new MailMessage();
+            SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
+
+            mail.From = new MailAddress("tourism.portal.UBI@gmail.com");
+            mail.To.Add("tourism.portal.UBI@gmail.com");
+            mail.Subject = "Purchase";
+
+            String message = "From: " + email.Text;
+
+            message +=  "\nName: " + nameText.Text + " " + surname.Text;
+            message += "\nAddress: " + address.Text;
+            message += "\nCity: " + TextBoxCity.Text + " " + TextBoxZip.Text;
+            message += "\nCountry: " + TextBoxCountry.Text;
+            message += "\n";
+            message += "\nTrip: " + DropDownListChoices.SelectedItem.Text;
+            message += "\nDeparture Date: " + TextBoxDepart.Text;
+            message += "\nComments: " + TextBoxComments.Text;
+            message += "\n";
+            message += "\nPayment:";
+            message += "\nMethod: " + paymethod.SelectedItem.Text;
+            message += "\nCard Number: " + account.Text;
+            message += "\nExpiration Date: " + expireDate.Text;
+            message += "\nCode: " + TextBoxSecurity.Text;
+
+            mail.Body = message;
+
+            SmtpServer.Port = 587;
+            SmtpServer.Credentials = new System.Net.NetworkCredential("tourism.portal.UBI", "cockgondola");
+            SmtpServer.EnableSsl = true;
+
+            SmtpServer.Send(mail);
+
+            Response.Redirect("reserveConfirm.aspx");
+        }
+        catch (Exception ex)
+        {
         }
 
-        if (addr == "")
-        {
-            Response.Write("<script>alert('postal address is required！');history.back();</script>");
-            Response.End();
-            return;
-        }
-
-        if (em == "")
-        {
-            Response.Write("<script>alert('email address is required！');history.back();</script>");
-            Response.End();
-            return;
-        }
-
-        if (acc == "")
-        {
-            Response.Write("<script>alert('account no is required！');history.back();</script>");
-            Response.End();
-            return;
-        }
-        string sql = "insert into bookinfo (tour_name,user_name,surname,identity_no,address,where_are_you,email,pay_method,account,depart)";
-        sql = sql + " values ('"+t_name+"','" + user + "','" + sur + "','" + id_no + "','" + addr + "','" + where_are_you + "','" + em + "','" + pay + "','" + acc + "','" +departs+ "')";
-        con.Open();
-        OleDbCommand cmd = new OleDbCommand(sql, con);        
-        cmd.ExecuteNonQuery();
-        con.Close();
-        Response.Write("<script>alert('Book success！');window.location='Default.aspx';</script>");
         
     }
 }
