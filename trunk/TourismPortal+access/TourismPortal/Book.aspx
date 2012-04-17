@@ -3,71 +3,144 @@
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
     <style type="text/css">
-        .style1
+        .style2
         {
+            text-align: center;
+        }
+        .style3
+        {
+            text-align: center;
+            font-size: xx-large;
+            color: #999999;
+        }
+        .style4
+        {
+            text-align: center;
             color: #FF0000;
+        }
+        .style6
+        {
+            text-align: center;
+            text-decoration: underline;
+            color: #999999;
         }
     </style>
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-    <h2>
-        <asp:Image ID="Image5" runat="server" Height="76px" 
-            ImageUrl="~/IMAGES/TRAVEL AGENCYanigif.gif" Width="902px" />
-    <center>
-        make your payments here 
-    </center>
+    <h2 class="style2">
     </h2>
-    <p>
-        &nbsp;</p>
-    <p>
-        &nbsp;<asp:Label ID="Label2" runat="server" Text="name"></asp:Label>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        <asp:TextBox ID="name" runat="server"></asp:TextBox>
+    <p class="style3">
+        Make your Reservations here</p>
+    <p class="style4">
+        About You:</p>
+    <p class="style2">
+        &nbsp;First Name:&nbsp;<asp:TextBox ID="nameText" runat="server" 
+            Width="243px"></asp:TextBox>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-        <asp:Label ID="Label1" runat="server" Text="surname"></asp:Label>
-        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<asp:TextBox ID="surname" 
-            runat="server"></asp:TextBox>
-        &nbsp;&nbsp;
-        <asp:Label ID="Label5" runat="server" Text="identity no"></asp:Label>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;<asp:TextBox ID="id" runat="server"></asp:TextBox>
+        </p>
+    <p class="style2">
+        Last Name: <asp:TextBox ID="surname" 
+            runat="server" Width="268px"></asp:TextBox>
         <BR><br>
-        <asp:Label ID="Label3" runat="server" Text="postal address"></asp:Label>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="address" runat="server" Height="20px" Width="129px"></asp:TextBox>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Label ID="Label4" runat="server" Text="where are you?"></asp:Label>
-        <asp:DropDownList ID="where" runat="server" Height="20px" Width="129px">
-            <asp:ListItem>BOTSWANA</asp:ListItem>
-            <asp:ListItem>USA</asp:ListItem>
-            <asp:ListItem>INDIA</asp:ListItem>
+        Address:
+        <asp:TextBox ID="address" runat="server" Height="36px" Width="285px" 
+            TextMode="MultiLine"></asp:TextBox>
+        </p>
+    <p class="style2">
+        City:
+        <asp:TextBox ID="TextBoxCity" runat="server"></asp:TextBox>
+&nbsp;Zip Code:
+        <asp:TextBox ID="TextBoxZip" runat="server" Width="70px"></asp:TextBox>
+    </p>
+    <p class="style2">
+        Country:
+        <asp:TextBox ID="TextBoxCountry" runat="server"></asp:TextBox>
+    </p>
+    <p class="style2">
+        emails:
+        <asp:TextBox ID="email" runat="server" Width="300px"></asp:TextBox></p>
+    <p class="style6">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+    <p class="style4">
+        About your trip:</p>
+    <p class="style2">
+        Where are you going:
+        <asp:DropDownList ID="DropDownListChoices" runat="server">
+            <asp:ListItem>Botswana - Food</asp:ListItem>
+            <asp:ListItem>Botswana - Music</asp:ListItem>
+            <asp:ListItem>Botswana Clothing</asp:ListItem>
+            <asp:ListItem>USA - Food - New England</asp:ListItem>
+            <asp:ListItem>USA - Food - South</asp:ListItem>
+            <asp:ListItem>USA - Food - Midwest</asp:ListItem>
+            <asp:ListItem>USA - Food - Pacific</asp:ListItem>
+            <asp:ListItem>USA - Music - Hawaiian</asp:ListItem>
+            <asp:ListItem>USA - Music - HipHop</asp:ListItem>
+            <asp:ListItem>USA - Music - Blues</asp:ListItem>
+            <asp:ListItem>USA - Music - Rock</asp:ListItem>
+            <asp:ListItem>India - Music</asp:ListItem>
+            <asp:ListItem>India - Food - South</asp:ListItem>
+            <asp:ListItem>India - Food - North</asp:ListItem>
+            <asp:ListItem>India - Food - West</asp:ListItem>
+            <asp:ListItem>India - Food - East</asp:ListItem>
         </asp:DropDownList>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Label ID="Label6" runat="server" Text="email address"></asp:Label>
-        &nbsp;&nbsp;
-        <asp:TextBox ID="email" runat="server"></asp:TextBox><br><br>
-        <asp:Label ID="Label7" runat="server" Text="method of payment"></asp:Label>
+    </p>
+    <p class="style2">
+        Departure Date (mm/dd/yyyy):
+        <asp:TextBox ID="TextBoxDepart" runat="server"></asp:TextBox>
+    </p>
+    <p class="style2">
+        Comments:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </p>
+    <p class="style2">
+        &nbsp;<asp:TextBox ID="TextBoxComments" runat="server" Height="88px" 
+            TextMode="MultiLine" Width="300px"></asp:TextBox>
+    </p>
+    <p class="style6">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+    <p class="style4">
+        Payment:</p>
+    <p class="style2">
+        <br>
+        <asp:Label ID="Label7" runat="server" Text="Method of Payment"></asp:Label>
+
+        :
 
         <asp:DropDownList ID="paymethod" runat="server" Height="20px" Width="129px">
-            <asp:ListItem>MASTER CARD</asp:ListItem>
+            <asp:ListItem>Master Card</asp:ListItem>
             <asp:ListItem>VISA</asp:ListItem>
-            <asp:ListItem>CASHPAL</asp:ListItem>
+            <asp:ListItem>PayPal</asp:ListItem>
+            <asp:ListItem>American Express</asp:ListItem>
         </asp:DropDownList>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Label ID="Label8" runat="server" Text="account no"></asp:Label>
-&nbsp;&nbsp; &nbsp;
-        <asp:TextBox ID="account" runat="server"></asp:TextBox>
-        <span class="style1">*information is secure</span></p>
-    <p>
-        <asp:Button ID="Button1" runat="server" onclick="Button1_Click" Text="Back" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button2" runat="server" Text="Clear" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button3" runat="server" Text="Pay" onclick="Button3_Click" />
-        <br>
-
     </p>
-    <p>
+    <p class="style2">
+        Card number:
+        <asp:TextBox ID="account" runat="server" Width="169px"></asp:TextBox>
+        </p>
+    <p class="style2">
+        Expiration Date (mm/yyyy):
+        <asp:TextBox ID="expireDate" runat="server" Width="91px"></asp:TextBox>
+    </p>
+    <p class="style2">
+        Secutiry Code:
+        <asp:TextBox ID="TextBoxSecurity" runat="server" Width="73px"></asp:TextBox>
+        </p>
+    <p class="style2">
+        &nbsp;</p>
+    <p class="style2">
+        &nbsp;<asp:Button ID="Button3" runat="server" Text="Reserve" onclick="Button3_Click" 
+            Width="71px" />
+        </p>
+    <p class="style2">
+        &nbsp;</p>
+    <p class="style2">
+        &nbsp;</p>
+    <p class="style2">
+        <asp:Image ID="Image3" runat="server" Height="79px" 
+            ImageUrl="~/IMAGES/secure-site-logo.jpg" Width="112px" />
+        <asp:Image ID="Image4" runat="server" Height="80px" 
+            ImageUrl="~/IMAGES/secureSiteLogo.png" Width="98px" />
+    </p>
+    <p class="style2">
         <br>
 
     </p>
