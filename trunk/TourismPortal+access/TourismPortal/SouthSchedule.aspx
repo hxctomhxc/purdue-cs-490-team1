@@ -1,4 +1,4 @@
-﻿<%@ Page Title="India" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
+﻿<%@ Page Title="South Schedule" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
     CodeFile="SouthSchedule.aspx.cs" Inherits="About" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">

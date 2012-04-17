@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Botswana Food Tour" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
+﻿<%@ Page Title="Botswana Music Tour" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
     CodeFile="Botswana Music Tour.aspx.cs" Inherits="About" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
