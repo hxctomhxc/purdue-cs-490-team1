@@ -1,4 +1,4 @@
-﻿<%@ Page Title="USA Food Tour" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
+﻿<%@ Page Title="USA Music Tour" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
     CodeFile="United States Of America Your Music Tour.aspx.cs" Inherits="About" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">

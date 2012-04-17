@@ -1,4 +1,4 @@
-﻿<%@ Page Title="India" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
+﻿<%@ Page Title="Botswana Music Schedule" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
     CodeFile="BotswanaMusicSchedule.aspx.cs" Inherits="About" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">

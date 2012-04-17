@@ -1,4 +1,4 @@
-﻿<%@ Page Title="India" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
+﻿<%@ Page Title="Rock Schedule" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
     CodeFile="rockSchedule.aspx.cs" Inherits="About" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">

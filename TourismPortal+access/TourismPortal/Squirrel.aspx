@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
+﻿<%@ Page Title="Gathering Nuts for the Winter" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
     CodeFile="Squirrel.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
