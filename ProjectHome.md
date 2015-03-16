@@ -1,0 +1,1 @@
+This project is for a Purdue University Computer Science international development class. The project involves working with teams across the World to develop and design a travel agency website.
